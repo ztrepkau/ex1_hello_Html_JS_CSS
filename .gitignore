@@ -1,0 +1,11 @@
+# files to be ignored by git #
+##############################
+letGitIgnoreMe.txt
+
+# directories to be ignored by git #
+####################################
+target/
+
+# local git repo to be ignored by git as well #
+###############################################
+.git/
