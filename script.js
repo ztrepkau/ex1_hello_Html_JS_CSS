@@ -51,6 +51,7 @@ function demoConsoleFunc() {
     console.error('myGlobalFunc_A console.error');
     console.warn('myGlobalFunc_A console.warn');
     console.info('myGlobalFunc_A console.info'); // NOTE_3 basically equivalent to console.log
+    console.log("Hi there good sir I'm a log statement");
 }
 
 function demoConsoleFuncInner(inp1) {
@@ -64,6 +65,7 @@ function demoConsoleFuncInner(inp1) {
     console.debug('myGlobalFunc_A console.debug');
     console.trace('myGlobalFunc_A console.trace');
     console.log('myGlobalFunc_A console.log' + inp1); // NOTE_3 basically equivalent to console.info
+    console.log("I'm a log statement inside the inner demo function");
 }
 
 // NOTE variables decleration is "hoisted", but NOT their value (initialization takes place when below line executes. So any code above this line relying on hoisted variable's value will get "undefined" as its value)
